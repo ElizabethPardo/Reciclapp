@@ -25,6 +25,9 @@ namespace Reciclaap.Models
 		[Required]
 		public string Apellido { get; set; }
 
+		[Required]
+		public string Dni { get; set; }
+
 		[Required, EmailAddress]
 		public string Telefono { get; set; }
 
